@@ -1,0 +1,646 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.background-first-section{
+    background-image: url(rt5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.header{
+   background-color: #304463;
+   position: fixed;
+   top: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   z-index: 2;
+}
+.logo{
+font-size: 30px;
+}
+
+
+.dv{
+    color: #36C2CE;
+    font-weight: 600;
+}
+
+.nav{
+    color: white;
+    margin-right: 100px;
+}
+
+
+
+
+.A{
+    font-size: 19px;
+    font-weight: 300;
+}
+
+
+.name{
+    color: white;
+    font-family: sans-serif;
+    font-size: 3.2rem;
+
+}
+.profile{
+    display: flex;
+    margin-top: 50px;
+    perspective: 1000px; 
+  
+}
+.description{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 200px;
+}
+.dev{
+    color: white;
+
+}
+.profile-first{
+    margin-left: 150px;
+}
+.surname{
+    color: #36C2CE;
+}
+
+.profile-image{
+    width: 300px;
+    transform: translateX(13px);
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.picture{
+    margin-left: 400px;
+    position: relative;
+  
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.second-section{
+    height: 100vh;
+    width: 100%;
+}
+.img-design{
+    background-color: #36C2CE;
+    height: 230px;
+    margin-top: 120px;
+    width: 295px;
+    border-radius: 10px;
+}
+.second-container{
+    display: flex;
+    
+}
+
+.skill-image-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    margin-left: 150px;
+}
+.skill-one{
+    margin-bottom: 40px;
+}
+
+.hhtml{
+    width: 102px;
+    margin-left: 28px;
+}
+.css{
+    width: 100px;
+    margin-left: 28px;
+}
+.js{
+    width: 105px;
+    margin-left: 28px;
+}
+.react{
+    width: 120px;
+    margin-left: 10px;
+}
+.lara{
+    width: 120px;
+    margin-left: 10px;
+}
+.sql{
+    width: 130px;
+    margin-left: 10px;
+}
+.hover-me{
+    color: white;
+    position: relative;
+    float: right;
+    margin-top: 50px;
+    margin-right:300px;
+}
+.hover-me ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 5px;
+}
+.hover-me li {
+    font-size:20px;
+}
+
+.about-me{
+    margin-top: 130px;
+    border: 2px solid #615EFC;
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-me-text{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.about-me h3{
+    font-family: sans-serif;
+    font-weight: 600;
+    color:#615EFC;
+    }
+
+
+.fourth-section{
+    background-image: url(contactsbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+.fourth-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    color: white;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.fa-fingerprint{
+    color: #36C2CE;
+}
+.links{
+margin-top: 10px;
+color: white;
+font-size: 28px;
+display: flex;
+flex-direction: row;
+}
+
+.fa-github{
+    margin-right: 80px;
+}
+
+.footer{
+    color: rgb(157, 153, 153);
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-section{
+    background-image: url(v1016-c-08.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+
+}
+.projects h3{
+    font-size: 40px;
+    color: white;
+    margin-top: 40px;
+}
+
+
+.iphone{
+    width: 400px;
+    margin-bottom: 45px;
+    position: relative;
+}
+.rock{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 45px;
+}
+.printer{
+    width: 400px;
+    margin-bottom: 45px;
+}
+
+.simple-images{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.third-title{
+    font-family: sans-serif;
+}
+.connectify{
+    width: 350px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.printer-management{
+    width: 350px;
+    height: 200px;
+    cursor: pointer;
+}
+.complex-project{
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+.iphone-wrap{
+    position: relative;
+}
+
+.iphone-wrap::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 1;
+    width: 0;
+    background-color:#36C2CE;
+    transition: 0.5s;
+    z-index: 1;
+    height: 209px;
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.iphone-wrap:hover::after{
+    width: 400px;
+}
+
+.rock-wrap{
+    position: relative;
+}
+
+.rock-wrap::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 1;
+    width: 0;
+    height: 5px;
+    background-color:#36C2CE;
+    transition: 0.5s;
+    z-index: 1;
+    height: 150px;
+    cursor: pointer;
+    height: 250px;
+    opacity: 70%;
+}
+
+.rock-wrap:hover::after{
+    width: 400px;
+}
+.third-title-one{
+    margin-left: 220px;
+}
+.printer-design-wrap{
+    position: relative;
+}
+
+.printer-design-wrap::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 1;
+    width: 0;
+    height: 5px;
+    background-color:#36C2CE;
+    transition: 0.5s;
+    z-index: 1;
+    height: 150px;
+    cursor: pointer;
+    height: 195px;
+    opacity: 70%;
+}
+
+.printer-design-wrap:hover::after{
+    width: 400px;
+}
+
+.printer-wrap{
+    position: relative;
+}
+
+.printer-wrap::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 1;
+    width: 0;
+    height: 5px;
+    background-color:#FF4E88;
+    transition: 0.5s;
+    z-index: 1;
+    height: 150px;
+    cursor: pointer;
+    height: 200px;
+    opacity: 70%;
+}
+
+.printer-wrap:hover::after{
+    width: 350px;
+}
+
+.connectify-wrap{
+    position: relative;
+}
+
+.connectify-wrap::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 1;
+    width: 0;
+    height: 5px;
+    background-color:#FF4E88;
+    transition: 0.5s;
+    z-index: 1;
+    height: 150px;
+    cursor: pointer;
+    height: 258px;
+    opacity: 70%;
+}
+
+.connectify-wrap:hover::after{
+    width: 350px;
+}
+
+.navbar{
+    width: 100%;
+    z-index: 2;
+}
+
+
+.navlist li a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    position: relative;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.navlist li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    background-color: #36C2CE;
+    transition: 0.3s;
+}
+
+.navlist li a:hover::after{
+    width: 100%;
+}
+.navbar-toggler{
+    float: right;
+    position: relative;
+
+}
+
+@media (max-width: 480px) {
+
+    .iphone-wrap::after{
+        height: 100px;
+    }
+    .iphone-wrap:hover::after{
+        width: 150px;
+    }
+    .rock-wrap::after{
+        height: 100px;
+    }
+    .rock-wrap:hover::after{
+        width: 150px;
+    }
+    .printer-design-wrap::after{
+     height: 90px;
+    }
+    
+    .printer-design-wrap:hover::after{
+        width: 150px;
+    }
+    .navbar-toggler{
+        margin-right: 100px;
+    }
+    .ran{
+        display: none;
+    }
+    .dv{
+        display: none;
+    }
+    .logo i{
+        font-size: 50px;
+    }
+    
+    .nav ul li{
+        font-size: 10px;
+        margin-left: 25px;
+        
+    }
+    .description{
+        margin-top: 70px;
+        font-size: 15px;
+    }
+    .name{
+        font-size: 30px;
+    }
+   
+    .profile-first{
+        margin-left: 100px;
+    }
+  
+    .profile-image{
+      width: 170px;
+      margin-right: 200px;
+    }
+    .img-design{
+        width: 170px;
+        height: 150px;
+    }
+    .profile{
+        flex-direction: column;
+    }
+    .picture{
+        margin-left: 100px;
+  
+    }
+.hover-me{
+    position: relative;
+    bottom: 100px;
+    right: 15px;
+}
+.hover-me li{
+    font-size: 6.8px;
+}
+.background-first-section{
+    height: 500px;
+}
+    .hhtml{
+        width: 40px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    .css{
+        width: 40px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    .js{
+        width: 40px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    .react{
+        width: 45px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    .lara{
+        width: 45px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    .sql{
+        width: 45px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    .skill-image-container{
+        margin-left: 10px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .skill-two{
+        margin-left: 15px;
+    }
+    .about-me-text{
+        font-size: 8.6px;
+        width: 250px;
+        
+    }
+    .about-me{
+        margin-top: 20px;
+        margin-left: 5px;
+        padding: 5px;
+        width: 270px;
+        height: 185px;
+    }
+    .about-me h3{
+        font-size: 8px;
+    }
+    .second-section{
+        height: 280px;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .iphone{
+        width: 150px;
+        height: 100px;
+        margin-bottom: 45px;
+        position: relative;
+    }
+    .rock{
+        width: 150px;
+        height: 100px;
+        margin-bottom: 45px;
+    }
+    .printer{
+        width: 150px;
+        height: 90px;
+        margin-bottom: 45px;
+    }
+    .simple-images{
+        margin-left: 140px;
+    }
+    .third-title-one{
+        margin-top: 30px;
+        margin-left:145px;
+    }
+    .simple h3{
+        font-size: 20px;
+    }
+      .connectify{
+        width: 180px;
+        height: 110px;
+        margin-left: 140px;
+      }
+      .connectify-wrap::after{
+        display: none;
+      }
+    .printer-wrap::after{
+        display: none;
+    }
+    
+    .complex h3{
+        font-size: 20px;
+        margin-left:145px;
+    }
+    .printer-management{
+        width: 180px;
+        height: 100px;
+        margin-left:140px;
+    }
+    .third-section{
+        height: 900px;
+    }
+    .footer-title{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    .fourth-section{
+        height: 205px;
+    }
+    .footer{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .links a{
+        color: white;
+    }
+}
